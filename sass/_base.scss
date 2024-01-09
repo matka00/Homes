@@ -28,7 +28,7 @@ html {
 }
 
 body {
-  line-height: 1.6rem;
+  line-height: 1.6;
   font-family: $font-primary;
   font-weight: 300;
   color: $color-grey-dark-2;
@@ -42,10 +42,4 @@ body {
     [center-start]
     repeat(8, [col-start] minmax(min-content, 14rem) [col-end])
     [center-end] minmax(6rem, 1fr) [full-end];
-
-  //for test
-  & > * {
-    padding: 40px;
-    font-size: 3rem;
-  }
 }
