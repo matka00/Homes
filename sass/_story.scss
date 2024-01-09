@@ -17,6 +17,7 @@
 
   &__img--1 {
     width: 100%;
+
     grid-row: 2 / 6;
     grid-column: 2 / 6;
 
@@ -26,6 +27,7 @@
   &__img--2 {
     width: 115%;
     z-index: 20;
+    
     grid-row: 4 / 6;
     grid-column: 4 / 7;
 
