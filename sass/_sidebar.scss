@@ -2,5 +2,33 @@
   grid-row: 1 / -1;
   grid-column: sidebar-start / sidebar-end;
 
+  display: flex;
+  justify-content: center;
+
   background-color: $color-primary;
+}
+
+.nav-btn {
+  width: 4.5rem;
+  height: 2px;
+  margin-top: 4rem;
+  border: none;
+  border-radius: 0;
+  background-color: #fff;
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    width: 4.5rem;
+    height: 2px;
+    background-color: #fff;
+  }
+
+  &::before {
+    transform: translateY(-1.5rem);
+  }
+  &::after {
+    transform: translateY(1.3rem);
+  }
 }

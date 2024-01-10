@@ -77,7 +77,27 @@ body {
 .sidebar {
   grid-row: 1 / -1;
   grid-column: sidebar-start / sidebar-end;
+  display: flex;
+  justify-content: center;
   background-color: #c69963; }
+
+.nav-btn {
+  width: 4.5rem;
+  height: 2px;
+  margin-top: 4rem;
+  border: none;
+  border-radius: 0;
+  background-color: #fff; }
+  .nav-btn::before, .nav-btn::after {
+    content: "";
+    display: block;
+    width: 4.5rem;
+    height: 2px;
+    background-color: #fff; }
+  .nav-btn::before {
+    transform: translateY(-1.5rem); }
+  .nav-btn::after {
+    transform: translateY(1.3rem); }
 
 .header {
   grid-column: full-start / col-end 6;
