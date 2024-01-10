@@ -144,7 +144,27 @@ body {
 
 .realtors {
   grid-column: col-start 7 / full-end;
+  display: grid;
+  row-gap: 2rem;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 3rem;
   background-color: #101d2c; }
+  .realtors__list {
+    display: grid;
+    grid-template-columns: min-content max-content;
+    row-gap: 5vh;
+    column-gap: 2rem;
+    align-items: center; }
+  .realtors__img {
+    width: 7rem;
+    display: block;
+    border-radius: 50%; }
+  .realtors__sold {
+    margin-top: -3px;
+    text-transform: uppercase;
+    color: #aaa; }
 
 .features {
   grid-column: center-start / center-end;
