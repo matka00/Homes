@@ -45,12 +45,12 @@
 
   &__link {
     text-decoration: none;
-    color: inherit;
+    color: $color-primary;
     transition: all 0.5s;
   }
 
   &__link:hover {
     background-color: rgba(#fff, 0.05);
-    color: $color-primary;
+    color: #fff;
   }
 }

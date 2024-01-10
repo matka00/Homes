@@ -8,6 +8,10 @@
   align-items: start;
 
   margin: 15rem 0;
+
+  @media only screen and (max-width: $bp-small) {
+    margin: 10rem 0;
+  }
 }
 
 .feature {
